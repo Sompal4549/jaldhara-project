@@ -1,8 +1,9 @@
 import Image from "next/image";
-
+import HomeSection from "@/components/Sections/HomeSection"
 export default function Home() {
   return (
-    <main className="min-h-screen bg-muted flex flex-col items-center justify-center p-10">
+    <main className="min-h-screen w-[100vw] flex flex-col items-center justify-center max-w-[100%] overflow-hidden">
+      <HomeSection />
       <h1 className="text-5xl font-heading font-inter-sans text-white mb-6">
         Welcome to My Themed App
       </h1>

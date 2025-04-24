@@ -11,11 +11,13 @@
   --purple:#64748b;
   --black:#001325;
   --white:#fff;
+  --home:#5F93D0;
 }
 @theme{
   --color-primary: var(--blue); 
+  --color-home-bg:var(--home);
   --color-lightblue:var(--lightblue)
-  --color-orange: var(--orange); 
+  --color-secondary: var(--orange); 
   --color-muted: var(--blue);
   --color-white: var(--white);
   --color-dark: var(--black);
@@ -28,7 +30,7 @@
   --text-4xl:72px;
   --text-3xl:64px;
   --text-2xl:54px;
-  --text-xl:40px;
+  --text-xl:42px;
   --text-lg:36px;
   --text-md:32px;
   --text-sm:20px;

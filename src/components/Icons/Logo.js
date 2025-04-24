@@ -5,11 +5,11 @@ const Logo = () => {
   return (
     <>
       <Image
-        // src="./assets/images/favicon.png"
-        src="./pipes.png"
+        src="./logo.svg"
         alt="logo"
-        height={50}
-        width={50}
+        height={30}
+        width={30}
+        className="img-responsive h-[30px] object-contain object-center"
       />
     </>
   );
