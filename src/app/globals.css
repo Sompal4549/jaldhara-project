@@ -16,7 +16,7 @@
 @theme{
   --color-primary: var(--blue); 
   --color-home-bg:var(--home);
-  --color-lightblue:var(--lightblue)
+  --color-light-primary:var(--lightblue);
   --color-secondary: var(--orange); 
   --color-muted: var(--blue);
   --color-white: var(--white);
@@ -25,14 +25,15 @@
   --radius-rounded-sm: 8px;
   --radius-rounded-md: 12px;
   --radius-rounded-lg: 20px;
-
   --text-5xl:100px;
   --text-4xl:72px;
   --text-3xl:64px;
   --text-2xl:54px;
   --text-xl:42px;
+  --text-2lg:40px;
   --text-lg:36px;
   --text-md:32px;
+  --text-2md:24px;
   --text-sm:20px;
   --text-xs:18px;
   --text-2xs:16px;

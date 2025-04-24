@@ -2,8 +2,11 @@ import React from "react";
 import MainTitle from "@/components/Headings/MainTitle";
 const HomeSection = () => {
   return (
-    <div className="w-full bg-home-bg ">
-      <div className="bg-[url('/images/home-image.svg')] w-full bg-cover bg-center h-screen relative bg-no-repeat py-10">
+    <div
+      className="w-full bg-home-bg min-h-[700px] h-screen max-h-[100%]"
+      id="home"
+    >
+      <div className="bg-[url('/images/home-image.svg')] h-full w-full bg-cover bg-center relative bg-no-repeat py-10 bg-blend-overlay">
         <div className="absolute inset-0 bg-primary/70 bg-multiply z-10 py-10 px-5">
           <div className="max-w-[1300px] w-full mx-auto pt-5">
             <MainTitle>
