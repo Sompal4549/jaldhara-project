@@ -30,12 +30,12 @@ const ProductsSection = () => {
         </button>
       </div>
       <div className="w-full pl-[10%]">
-        <div className="flex flex-nowrap overflow-x-auto space-x-4 scrollbar-hide py-10 my-10 gap-8">
-          <Card imgUrl="pipe.svg" title="01" text="HDPE PIPES" />
+        <div className="flex flex-nowrap overflow-x-auto space-x-4 scrollbar-hide py-10 my-10 gap-6 px-4">
+          <Card imgUrl="pipes.svg" title="01" text="HDPE PIPES" />
           <Card imgUrl="pipe.svg" title="02" text="MDPE Gas Pipes" />
-          <Card imgUrl="pipe.svg" title="03" text="MDPE Gas Pipes" />
+          <Card imgUrl="pipes.svg" title="03" text="MDPE Gas Pipes" />
           <Card imgUrl="pipe.svg" title="04" text="MDPE Gas Pipes" />
-          <Card imgUrl="pipe.svg" title="04" text="MDPE Gas Pipes" />
+          <Card imgUrl="pipes.svg" title="04" text="MDPE Gas Pipes" />
         </div>
       </div>
     </div>
