@@ -29,7 +29,7 @@ const ProductsSection = () => {
           View All
         </button>
       </div>
-      <div className="w-full pl-[10%]">
+      <div className="w-full pl-[7%]">
         <div className="flex flex-nowrap overflow-x-auto space-x-4 scrollbar-hide py-10 my-10 gap-6 px-4">
           <Card imgUrl="pipes.svg" title="01" text="HDPE PIPES" />
           <Card imgUrl="pipe.svg" title="02" text="MDPE Gas Pipes" />
