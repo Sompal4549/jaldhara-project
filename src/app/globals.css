@@ -39,6 +39,8 @@
   --text-2xs:16px;
   --text-3xs:14px;
   --text-4xs:12px;
+  --text-5xs:10px;
+  --text-6xs:8px;
   
 --leading-7xl:80px;
   --leading-6xl:100px;
@@ -53,6 +55,8 @@
   --leading-xs:20px;
   --leading-2xs:16px;
   --leading-3xs:18px;
+  --leading-4xs:16px;
+  --leading-5xs:14px;
 
   --font-inter-sans: Inter;
   --font-manrope-sans: Manrope;

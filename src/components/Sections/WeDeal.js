@@ -26,23 +26,25 @@ const WeDeal = () => {
             // className={`w-full h-[720px] rounded-s-lg bg-white ${
             //   ind === index ? "block" : "hidden"
             // }`}
-            className="min-w-full h-[720px] flex flex-row  rounded-s-lg px-4"
+            className={`min-w-full md:h-[720px] flex flex-row  rounded-s-lg md:px-4 px-0 ${
+              ind === index ? "" : "opacity-5"
+            }`}
           >
-            <div className="flex flex-row bg-white rounded-lg">
-              <div className="img-container w-[55%] bg-blend-multiply rounded-lg">
+            <div className="flex flex-col md:flex-row bg-white rounded-lg">
+              <div className="img-container w-full md:w-[55%] bg-blend-multiply rounded-lg">
                 <Image
                   alt="our work"
                   width={750}
                   height={720}
-                  className="w-auto h-full max-h-[720px] bg-primary rounded-s-lg"
+                  className="w-full md:w-auto h-[290px] md:h-full max-h-[720px] bg-primary rounded-s-lg object-cover object-top"
                   src="./construction.svg"
                 />
               </div>
-              <div className="w-[45%] pl-8 py-8">
-                <p className="text-sm font-inter-sans font-bold leading-xs text-dark">
+              <div className="w-full md:w-[45%] pl-8 py-8">
+                <p className="text-2xs md:text-sm font-inter-sans font-bold leading-2xs md:leading-xs text-dark">
                   Construction {ind}
                 </p>
-                <ul className="font-manrope-sans font-light text-2xs tracking-normal list-disc pl-5">
+                <ul className="font-manrope-sans font-light text-4xs md:text-2xs tracking-normal list-disc pl-5">
                   <li>
                     <p className="mt-5 text-[rgba(0, 19, 37, 0.85)]">
                       Water Supply Systems: HDPE pipes are ideal for
