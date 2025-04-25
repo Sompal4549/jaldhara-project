@@ -5,8 +5,8 @@ import SectionTitle from "../Headings/SectionTitle";
 import Image from "next/image";
 const WeDeal = () => {
   const [index, setIndex] = useState(0);
-  const clickHandler = (index) => {
-    const indexToNumber = Number(index);
+  const clickHandler = (val) => {
+    const indexToNumber = Number(val);
     if (isNaN(indexToNumber)) {
       setIndex(0);
     } else {
