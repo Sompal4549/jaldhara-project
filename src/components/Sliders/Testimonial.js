@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import SectionTitle from "../Headings/SectionTitle";
+import { PiArrowLeftThin, PiArrowRightThin } from "react-icons/pi";
 // import DealSlider from "@/components/Sliders/DealSlider";
 import Image from "next/image";
 const Testimonial = () => {
@@ -17,17 +17,22 @@ const Testimonial = () => {
     <div className="w-full py-4 px-4 bg-primary" id="testimonial">
       <div className="relative max-w-[1200px] w-[100%] mx-auto">
         {/* Title */}
-        <>
-          <p className="text-start text-white font-light font-syne-sans leading-5xl text-3xl">
+        <div className="w-[55%]">
+          <p className="text-start text-white font-light font-manrope-sans leading-3xs text-4xs">
             Customer Stories
           </p>
           <h3 className="text-start text-white font-light font-syne-sans leading-5xl text-3xl">
             Teams with alignment on the latest work
           </h3>
-        </>
+        </div>
         {/* Arrows */}
-        <div className="absolute top-0 right-0 w-auto h-auto">
-          <div className="arrow-left w-[160px] h-[160px] flex items-center justify-center text-center text-white"></div>
+        <div className="absolute top-0 right-0 w-auto h-auto flex">
+          <div className="arrow-left w-[160px] h-[160px] flex items-center justify-center text-center text-white text-4xl border-2 border-blue">
+            <PiArrowLeftThin />
+          </div>
+          <div className="arrow-left w-[160px] h-[160px] flex items-center justify-center text-center text-white text-4xl border-2 border-blue">
+            <PiArrowRightThin />
+          </div>
         </div>
 
         <div
@@ -40,46 +45,40 @@ const Testimonial = () => {
               // className={`w-full h-[720px] rounded-s-lg bg-white ${
               //   ind === index ? "block" : "hidden"
               // }`}
-              className="min-w-full h-[720px] flex flex-row  rounded-s-lg px-4"
+              className={`min-w-full h-auto flex flex-row border-2 border-[#003471] ${
+                ind === index ? "" : "ml-4"
+              }`}
             >
-              <div className="flex flex-row bg-white rounded-lg">
-                <div className="img-container w-[55%] bg-blend-multiply rounded-lg">
+              <div className="flex flex-row justify-between p-4">
+                <div className="img-container w-[55%]">
+                  <p className="mt-5 text-white">
+                    Lorem ipsum dolor sit amet consectetur. Risus sapien morbi
+                    vitae rutrum. Purus felis turpis enim viverra vitae
+                    dignissim odio rhoncus tellus.
+                  </p>
+                  <div className="flex flex-row">
+                    <Image
+                      alt="our work"
+                      width={72}
+                      height={72}
+                      className="w-auto h-full max-h-[72px] rounded-s-lg"
+                      src="./user.svg"
+                    />
+                    <p className="mt-5 text-white font-inter-sans">
+                      Geotechnical Applications: Utilized in soil stabilization
+                      projects due to their flexibility and resistance to
+                      environmental factors.
+                    </p>
+                  </div>
+                </div>
+                <div className="w-[45%] pl-8 py-8 flex items-end text-end">
                   <Image
                     alt="our work"
-                    width={750}
-                    height={720}
-                    className="w-auto h-full max-h-[720px] bg-primary rounded-s-lg"
-                    src="./construction.svg"
+                    width={265}
+                    height={100}
+                    className="w-auto h-full max-h-[100px] rounded-s-lg ml-auto"
+                    src="./team.svg"
                   />
-                </div>
-                <div className="w-[45%] pl-8 py-8">
-                  <p className="text-sm font-inter-sans font-bold leading-xs text-dark">
-                    Construction {ind}
-                  </p>
-                  <ul className="font-manrope-sans font-light text-2xs tracking-normal list-disc pl-5">
-                    <li>
-                      <p className="mt-5 text-[rgba(0, 19, 37, 0.85)]">
-                        Water Supply Systems: HDPE pipes are ideal for
-                        transporting drinking water due to their resistance to
-                        corrosion and chemicals, ensuring safe and reliable
-                        water distribution.
-                      </p>
-                    </li>
-                    <li>
-                      <p className="mt-5 text-[rgba(0, 19, 37, 0.85)]">
-                        Drainage Systems: Used in sewage and drainage systems
-                        because of their smooth inner surface, which reduces
-                        blockages and ensures efficient waste flow.
-                      </p>
-                    </li>
-                    <li>
-                      <p className="mt-5 text-[rgba(0, 19, 37, 0.85)]">
-                        Geotechnical Applications: Utilized in soil
-                        stabilization projects due to their flexibility and
-                        resistance to environmental factors.
-                      </p>
-                    </li>
-                  </ul>
                 </div>
               </div>
             </div>

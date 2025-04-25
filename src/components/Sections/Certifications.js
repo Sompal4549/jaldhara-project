@@ -49,6 +49,9 @@ const Certifications = () => {
             Our team is here to guide you in selecting the perfect solution for
             your needs.
           </p>
+          <button className="text-white bg-primary font-manrope-sans text-2xs px-8 py-2 rounded-lg mt-6">
+            Contact us
+          </button>
         </div>
       </div>
     </div>
