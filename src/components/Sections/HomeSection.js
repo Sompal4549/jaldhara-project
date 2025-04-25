@@ -3,7 +3,7 @@ import MainTitle from "@/components/Headings/MainTitle";
 const HomeSection = () => {
   return (
     <div
-      className="w-full bg-home-bg min-h-[700px] h-screen max-h-[100%]"
+      className="w-full bg-home-bg min-h-[700px] h-screen max-h-[900px]"
       id="home"
     >
       <div className="bg-[url('/images/home-image.svg')] h-full w-full bg-cover bg-center relative bg-no-repeat py-10 bg-blend-overlay">

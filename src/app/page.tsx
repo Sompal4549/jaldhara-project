@@ -8,7 +8,8 @@ import Testimonial from "@/components/Sliders/Testimonial"
 
 export default function Home() {
   return (
-    <main className="min-h-screen w-[100vw] flex flex-col items-center justify-center max-w-[100%] overflow-hidden">
+    <main className="min-h-screen w-[100vw] flex flex-col items-center justify-center max-w-[100%] bg-primary overflow-hidden">
+      <div className="w-full max-w-[1440px] mx-auto">
       <HomeSection />
       <AboutSection />
       <ProductsSection />
@@ -16,6 +17,7 @@ export default function Home() {
       <WeDeal />
       <Testimonial/>
       <Certifications />
+      </div>
     </main>
   );
 }
