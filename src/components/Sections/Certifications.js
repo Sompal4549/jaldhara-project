@@ -8,6 +8,7 @@ const Certifications = () => {
         <div className="w-full py-8">
           <SectionTitle text="Our Certifications" />
         </div>
+        {/* Certificates */}
         <div className="items-center flex gap-10 flex-wrap w-full justify-around py-8">
           {Array.from({ length: 3 }).map((_, index) => {
             return (
@@ -38,6 +39,16 @@ const Certifications = () => {
               </div>
             );
           })}
+        </div>
+        <div className="w-full bg-gradient-to-r py-10 flex items-center  my-10 justify-center flex-col to-[#D0E9FF] from-[#F2F9FF] rounded-lg">
+          <h3 className="text-primary font-bold font-syne-sans leading-lg text-md tracking-tight">
+            Need Help Choosing the Right Products?
+          </h3>
+          <p className="font-light font-inter-sans leading-sm text-2xs tracking-tight">
+            {" "}
+            Our team is here to guide you in selecting the perfect solution for
+            your needs.
+          </p>
         </div>
       </div>
     </div>

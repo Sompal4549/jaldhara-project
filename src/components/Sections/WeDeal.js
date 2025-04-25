@@ -73,15 +73,18 @@ const WeDeal = () => {
       </div>
 
       <ul className="bg-primary flex gap-2 cursor-pointer my-5 w-full items-center justify-center">
-        {Array.from({ length: 5 }).map((_, ind) => (
-          <li
-            key={`dot-${ind}-item`}
-            className={`p-1 h-2 ${
-              ind === index ? "w-6 bg-secondary" : "w-3 bg-white"
-            } rounded-full`}
-            onClick={() => clickHandler(ind)}
-          ></li>
-        ))}
+        {Array.from({ length: 5 }).map((_, ind) => {
+          return (
+            <li
+              key={`dot-${ind}-item`}
+              className={`p-1 h-2 ${
+                ind === index ? "w-6 bg-secondary" : "w-3 bg-white"
+              } rounded-full text-white`}
+              onClick={() => clickHandler(ind)}
+              value={ind}
+            ></li>
+          );
+        })}
       </ul>
     </div>
   );
