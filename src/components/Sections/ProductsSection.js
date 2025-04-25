@@ -6,13 +6,13 @@ const ProductsSection = () => {
   const Card = ({ imgUrl, title, text }) => {
     return (
       <div
-        className={`p-4 relative card w-[320px] min-w-[320px] h-[320px] bg-[url('/Subtract.svg')] bg-cover bg-center bg-no-repeat after:content-['']  after:absolute after:bottom-0 after:right-0 after:bg-[url('/${imgUrl}')] after:h-[60%] after:top:[40%] after:bg-cover after:bg-center after-z-10 after:w-[90%]`}
+        className={`p-4 relative card w-[160px] h-[160px] min-w-[160px] md:w-[320px] md:min-w-[320px] md:h-[320px] bg-[url('/Subtract.svg')] bg-cover bg-center bg-no-repeat after:content-['']  after:absolute after:bottom-0 after:right-0 after:bg-[url('/${imgUrl}')] after:h-[60%] after:top:[40%] after:bg-cover after:bg-center after-z-10 after:w-[90%]`}
       >
         <div className="w-[50%]">
-          <p className="text-white text-4xl leading-5xl font-inter-sans font-light">
+          <p className="text-white text-lg md:text-4xl leading-lg md:leading-5xl font-inter-sans font-light">
             {title}
           </p>
-          <p className="text-white text-md leading-md font-inter-sans font-light">
+          <p className="text-white text-2xs md:text-md leading-md font-inter-sans font-light">
             {text}
           </p>
         </div>
@@ -21,7 +21,7 @@ const ProductsSection = () => {
   };
 
   return (
-    <div className="w-full bg-primary " id="products">
+    <div className="w-full bg-primary px-6" id="products">
       {/* Our products */}
       <div className="flex max-w-[1200px] w-full mx-auto justify-between items-center">
         <SectionTitle text="Our Products" />

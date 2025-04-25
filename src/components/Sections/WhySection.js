@@ -4,12 +4,12 @@ import React from "react";
 const WhySection = () => {
   return (
     <div className="w-full py-4 px-4 bg-primary" id="why-section">
-      <div className="md:py-[5rem] md:px-[2.75rem] max-w-[1200px] w-[100%] bg-white rounded-md mx-auto">
+      <div className="md:py-[5rem] md:px-[2.75rem] max-w-[1200px] w-[100%] bg-white rounded-2xl md:rounded-md mx-auto p-6">
         <div>
-          <p className="text-primary text-3xl leading-3xl font-inter-sans font-light">
+          <p className="text-primary/50 text-md md:text-3xl leading-3xl font-inter-sans font-light">
             Why
           </p>
-          <p className="text-primary text-3xl font-syne-sans font-bold leading-7xl md:pl-10">
+          <p className="text-primary text-2lg md:text-3xl font-syne-sans font-bold leading-4xl md:leading-7xl md:pl-10">
             Jaldhara Polytubes
           </p>
         </div>
@@ -17,17 +17,20 @@ const WhySection = () => {
           <div className="md:w-[55%]">
             <ul className="list-none flex flex-col gap-8">
               {Array.from({ length: 5 }).map((_, index) => (
-                <li key={index} className="flex flex-column items-center gap-8">
-                  <div className="min-w-[72px] w-[72px] h-[72px] rounded-full border-2 border-primary/30 flex items-center justify-center text-center">
+                <li
+                  key={index}
+                  className="flex flex-column items-start md:items-center gap-4 md:gap-8"
+                >
+                  <div className="min-w-[52px] md:min-w-[72px] w-[52px] md:w-[72px] h-[52px] md:h-[72px] rounded-full border-2 border-primary/30 flex items-center justify-center text-center">
                     <span className="text-center font-inter-sans text-primary text-sm leading-xs">
                       {index + 1}
                     </span>
                   </div>
                   <div>
-                    <p className="font-inter-sans text-sm leading-xs">
+                    <p className="font-inter-sans text-sm leading-sm md:leading-xs text-[#082233]">
                       Advanced Manufacturing Technology
                     </p>
-                    <p className="text-4xs font-inter-sans leading-relaxed tracking-wider mt-2">
+                    <p className="text-4xs font-inter-sans leading-3xs md:leading-relaxed tracking-wider mt-2">
                       Leveraging state-of-the-art manufacturing systems, we
                       ensure precision-engineered HDPE piping solutions that
                       meet the highest global standards.
