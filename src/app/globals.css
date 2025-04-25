@@ -22,41 +22,42 @@
   --color-white: var(--white);
   --color-dark: var(--black);
   
-  --radius-rounded-sm: 8px;
-  --radius-rounded-md: 12px;
-  --radius-rounded-lg: 20px;
-  --text-5xl:100px;
-  --text-4xl:72px;
-  --text-3xl:64px;
-  --text-2xl:54px;
-  --text-xl:42px;
-  --text-2lg:40px;
-  --text-lg:36px;
-  --text-md:32px;
-  --text-2md:24px;
-  --text-sm:20px;
-  --text-xs:18px;
-  --text-2xs:16px;
-  --text-3xs:14px;
-  --text-4xs:12px;
-  --text-5xs:10px;
-  --text-6xs:8px;
-  
---leading-7xl:80px;
-  --leading-6xl:100px;
-  --leading-5xl:76px;
-  --leading-4xl:66px;
-  --leading-3xl:64px;
-  --leading-2xl:56px;
-  --leading-xl:44px;
-  --leading-lg:36px;
-  --leading-md:32px;
-  --leading-sm:24px;
-  --leading-xs:20px;
-  --leading-2xs:16px;
-  --leading-3xs:18px;
-  --leading-4xs:16px;
-  --leading-5xs:14px;
+  --radius-rounded-sm: 0.5rem;   /* 8px */
+  --radius-rounded-md: 0.75rem;  /* 12px */
+  --radius-rounded-lg: 1.25rem;  /* 20px */
+
+  --text-5xl: 6.25rem;   /* 100px */
+  --text-4xl: 4.5rem;    /* 72px */
+  --text-3xl: 4rem;      /* 64px */
+  --text-2xl: 3.375rem;  /* 54px */
+  --text-xl: 2.625rem;   /* 42px */
+  --text-2lg: 2.5rem;    /* 40px */
+  --text-lg: 2.25rem;    /* 36px */
+  --text-md: 2rem;       /* 32px */
+  --text-2md: 1.5rem;    /* 24px */
+  --text-sm: 1.25rem;    /* 20px */
+  --text-xs: 1.125rem;   /* 18px */
+  --text-2xs: 1rem;      /* 16px */
+  --text-3xs: 0.875rem;  /* 14px */
+  --text-4xs: 0.75rem;   /* 12px */
+  --text-5xs: 0.625rem;  /* 10px */
+  --text-6xs: 0.5rem;    /* 8px */
+
+  --leading-7xl: 5rem;   /* 80px */
+  --leading-6xl: 6.25rem;/* 100px */
+  --leading-5xl: 4.75rem;/* 76px */
+  --leading-4xl: 4.125rem;/* 66px */
+  --leading-3xl: 4rem;   /* 64px */
+  --leading-2xl: 3.5rem; /* 56px */
+  --leading-xl: 2.75rem; /* 44px */
+  --leading-lg: 2.25rem; /* 36px */
+  --leading-md: 2rem;    /* 32px */
+  --leading-sm: 1.5rem;  /* 24px */
+  --leading-xs: 1.25rem; /* 20px */
+  --leading-2xs: 1rem;   /* 16px */
+  --leading-3xs: 1.125rem;/* 18px */
+  --leading-4xs: 1rem;   /* 16px */
+  --leading-5xs: 0.875rem;/* 14px */
 
   --font-inter-sans: Inter;
   --font-manrope-sans: Manrope;
