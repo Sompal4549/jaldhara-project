@@ -52,7 +52,7 @@ const Testimonial = () => {
             </div>
           </div>
           <div
-            className={`flex transition-transform duration-700 ease-in-out relative mt-8`}
+            className={`flex transition-transform duration-700 ease-in-out relative mt-[80px]`}
             style={{ transform: `translateX(-${index * 100}%)` }}
           >
             {Array.from({ length: 5 }).map((_, ind) => (

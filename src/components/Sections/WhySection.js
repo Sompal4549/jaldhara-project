@@ -6,7 +6,7 @@ const WhySection = () => {
     <div className="w-full py-4 px-4 bg-primary" id="why-section">
       <div className="md:py-[5rem] md:px-[2.75rem] max-w-[1200px] w-[100%] bg-white rounded-2xl md:rounded-md mx-auto p-6">
         <div>
-          <p className="text-primary/50 text-md md:text-3xl leading-3xl font-inter-sans font-light">
+          <p className="md:text-primary text-primary/50 text-md md:text-3xl leading-3xl font-inter-sans font-light">
             Why
           </p>
           <p className="text-primary text-2lg md:text-3xl font-syne-sans font-bold leading-4xl md:leading-7xl md:pl-10">
@@ -27,10 +27,10 @@ const WhySection = () => {
                     </span>
                   </div>
                   <div>
-                    <p className="font-inter-sans text-sm leading-sm md:leading-xs text-[#082233]">
+                    <p className="font-inter-sans text-sm leading-sm md:leading-xs md:text-black text-[#082233]">
                       Advanced Manufacturing Technology
                     </p>
-                    <p className="text-4xs font-inter-sans leading-3xs md:leading-relaxed tracking-wider mt-2">
+                    <p className="text-4xs font-inter-sans leading-3xs md:leading-relaxed tracking-wider mt-2 md:mt-1">
                       Leveraging state-of-the-art manufacturing systems, we
                       ensure precision-engineered HDPE piping solutions that
                       meet the highest global standards.

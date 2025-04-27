@@ -17,7 +17,7 @@ const WeDeal = () => {
     <div className="w-full py-4 px-4 bg-primary" id="we-deal">
       <SectionTitle text="Industries we deal with" />
       <div
-        className={`flex transition-transform duration-700 ease-in-out`}
+        className={`flex transition-transform duration-700 ease-in-out md:my-10 py-10`}
         style={{ transform: `translateX(-${index * 100}%)` }}
       >
         {Array.from({ length: 5 }).map((_, ind) => (
