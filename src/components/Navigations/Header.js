@@ -17,18 +17,10 @@ const Header = () => {
         </div>
         {/* Menu items */}
         <nav className="space-x-6 text-3xs hidden md:block">
-          <Link href="#" className="hover:text-indigo-600">
-            Home
-          </Link>
-          <Link href="#" className="hover:text-indigo-600">
-            About us
-          </Link>
-          <Link href="#" className="hover:text-indigo-600">
-            Careers
-          </Link>
-          <Link href="#" className="hover:text-indigo-600">
-            Our Products
-          </Link>
+          <Link href="#">Home</Link>
+          <Link href="#">About us</Link>
+          <Link href="#">Careers</Link>
+          <Link href="#">Our Products</Link>
         </nav>
         {/* Contact Us */}
         <div className="contact-us hidden md:block">

@@ -47,18 +47,10 @@ const Footer = () => {
             <div className="mr-5">
               <p className="font-bold text-white/80">Resources</p>
               <nav className="space-x-6 text-3xs flex flex-col gap-4 mt-4">
-                <Link href="#" className="hover:text-indigo-600">
-                  Home
-                </Link>
-                <Link href="#" className="hover:text-indigo-600">
-                  About us
-                </Link>
-                <Link href="#" className="hover:text-indigo-600">
-                  Careers
-                </Link>
-                <Link href="#" className="hover:text-indigo-600">
-                  Our Products
-                </Link>
+                <Link href="#">Home</Link>
+                <Link href="#">About us</Link>
+                <Link href="#">Careers</Link>
+                <Link href="#">Our Products</Link>
               </nav>
             </div>
             {/* newsletter desktop*/}

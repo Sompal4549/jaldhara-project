@@ -59,10 +59,10 @@
   --leading-4xs: 1rem;   /* 16px */
   --leading-5xs: 0.875rem;/* 14px */
 
-  --font-inter-sans: Inter;
-  --font-manrope-sans: Manrope;
-  --font-syne-sans:Syne;
-  --font-poppins-sans:Poppins;
+  --font-inter-sans: var(--font-inter-sans);
+  --font-manrope-sans: var(--font-manrope-sans);
+  --font-syne-sans:var(--font-syne-sans);
+  --font-poppins-sans:var(--font-poppins-sans);
 }
 
 

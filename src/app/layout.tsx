@@ -22,8 +22,8 @@ const inter = Inter({
 })
 const poppins = Poppins({
   variable: "--font-poppins-sans",
-  subsets: ['latin'],
-  weight:['100','200','300','400','500','600','700','800'],
+  subsets: ['latin-ext','latin'],
+  weight:['400','500','600','700','800'],
   display:"swap",
 })
 
