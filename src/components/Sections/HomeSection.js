@@ -7,7 +7,7 @@ const HomeSection = ({ data }) => {
       id="home"
     >
       <div
-        className={`bg-[url(${data.bgImage})] h-full w-full bg-cover bg-top relative bg-no-repeat py-10 bg-blend-overlay`}
+        className={`bg-[url(/connecting-pipes.svg)] h-full w-full bg-cover bg-top relative bg-no-repeat py-10 bg-blend-overlay`}
       >
         <div
           className={`absolute inset-0 bg-primary/70 bg-multiply z-10 py-10 px-5 flex flex-col md:items-start md:justify-start ${
