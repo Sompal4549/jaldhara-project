@@ -13,8 +13,8 @@ const WhySection = () => {
             Jaldhara Polytubes
           </p>
         </div>
-        <div className="flex flex-row flex-wrap justify-between gap-5 md:pl-10 py-10 items-center">
-          <div className="md:w-[55%]">
+        <div className="flex flex-row flex-wrap lg:flex-nowrap justify-between gap-5 md:pl-10 py-10 items-center">
+          <div className="w-full lg:w-[55%]">
             <ul className="list-none flex flex-col gap-8">
               {Array.from({ length: 5 }).map((_, index) => (
                 <li
@@ -40,7 +40,7 @@ const WhySection = () => {
               ))}
             </ul>
           </div>
-          <div className="flex items-center text-center w-full md:w-auto">
+          <div className="flex items-center text-center w:md-[45%] w-full lg:w-auto">
             <Image
               src="./factory.svg"
               alt="workers working in the factory"
