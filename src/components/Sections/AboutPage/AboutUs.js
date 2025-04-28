@@ -1,15 +1,31 @@
 import React from "react";
 import CommonUi from "../../Common/CommonUi";
 import { DesText, Title } from "../AboutUsSection";
+import Image from "next/image";
 
 const AboutUs = () => {
+  const ImageCard = () => {
+    return (
+      <div className="rounded-lg w-[190px] md:w-[380px] h-[223px] md:h-[446px] min-w-[190] md:min-w-[380px] mt-8">
+        <div className="bg-primary rounded-lg">
+          <Image
+            width={380}
+            height={446}
+            src="/about1.svg"
+            className="rounded-lg"
+            alt="factory image"
+          />
+        </div>
+      </div>
+    );
+  };
   return (
     <CommonUi id="about-us">
       <div
         className="max-w-[1280px] mx-auto w-[100%] before:content-[''] before:absolute before:right-0 before:top-0 before:h-[60%] before:w-[30%] before:bg-[url('/pipes-icon.svg')] before:bg-no-repeat before:bg-cover before:bg-top-right 
       before:bottom-[40%] py-10"
       >
-        <div className="flex flex-wrap flex-row">
+        <div className="flex flex-wrap flex-col md:flex-row">
           <div className="flex-1">
             <h2 className="text-4xs leading-3xs md:text-3xs uppercase font-inter-sans md:font-light md:leading-xs">
               ABOUT US
@@ -48,6 +64,11 @@ const AboutUs = () => {
             <Title text="7+ yrs" />
             <DesText text="Manufacturong Experience" />
           </div>
+        </div>
+        <div className="flex flex-row flex-nowrap overflow-x-auto space-x-4 scrollbar-hide justify-between">
+          <ImageCard />
+          <ImageCard />
+          <ImageCard />
         </div>
       </div>
     </CommonUi>

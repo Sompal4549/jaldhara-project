@@ -13,13 +13,13 @@ import Testimonial from "@/components/Sliders/Testimonial";
  */
 export default function Home() {
   const bannerData ={
-    bgImage:'/images/home-image.svg',
-    title:"Redefining Flow, One Pipe at",
-    subTitle:"a Time",
+    bgImage: "/homeImage.svg",
+    title: "Redefining Flow, One Pipe at",
+    subTitle: "a Time",
   }
   return (
     <PageLayout>
-      <HomeSection data={bannerData}/>
+      <HomeSection data={{...bannerData, }}/>
       <AboutSection />
       <ProductsSection />
       <WhySection />
