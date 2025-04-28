@@ -62,7 +62,7 @@ const Testimonial = () => {
                 //   ind === index ? "block" : "hidden"
                 // }`}
                 className={`min-w-full h-auto flex flex-row shadow-[0_0px_0px_0.5px_rgba(222,222,222,1)] border-[2px] border-[rgba(0,52,113,1)] border-solid ${
-                  ind === index ? "" : "opacity-8"
+                  ind === index ? "" : "opacity-0"
                 }`}
               >
                 <div className="flex flex-row justify-between p-4">
