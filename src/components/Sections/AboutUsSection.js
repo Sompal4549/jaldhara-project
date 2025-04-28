@@ -1,22 +1,20 @@
 import Image from "next/image";
 import React from "react";
-
+export const Title = ({ text }) => {
+  return (
+    <h3 className="text-center text-white text-lg leading-xl font-poppins-sans font-medium">
+      {text}
+    </h3>
+  );
+};
+export const DesText = ({ text }) => {
+  return (
+    <p className="text-center text-white text-2xs leading-xl font-poppins-sans font-light">
+      {text}
+    </p>
+  );
+};
 const AboutUsSection = () => {
-  const Title = ({ text }) => {
-    return (
-      <h3 className="text-center text-white text-lg leading-xl font-poppins-sans font-medium">
-        {text}
-      </h3>
-    );
-  };
-  const DesText = ({ text }) => {
-    return (
-      <p className="text-center text-white text-2xs leading-xl font-poppins-sans font-light">
-        {text}
-      </p>
-    );
-  };
-
   return (
     <div className="w-full bg-primary" id="about-us">
       {/* Years of transforming... */}

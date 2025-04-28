@@ -15,7 +15,7 @@ export default function Home() {
   const bannerData ={
     bgImage:'/images/home-image.svg',
     title:"Redefining Flow, One Pipe at",
-    subTitle:"a Time"
+    subTitle:"a Time",
   }
   return (
     <PageLayout>
