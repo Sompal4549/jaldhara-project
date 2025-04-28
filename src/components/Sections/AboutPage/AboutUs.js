@@ -19,6 +19,31 @@ const AboutUs = () => {
       </div>
     );
   };
+  const SimpleCard = () => {
+    return (
+      <div className="rounded-lg bg-white p-4 flex-1">
+        <div className="bg-[#E0F0FF] rounded-lg py-4 w-[100%] font-syne-sans text-md leading-md">
+          <p className="text-center font-syne-sans text-2md leading-md">
+            <Image
+              src="/target.svg"
+              alt="target"
+              width={26}
+              height={26}
+              className="inline mr-4"
+            />
+            Our Mission
+          </p>
+        </div>
+        <div className="text-center text-sm leading-[22px] mt-8 px-10">
+          <p>
+            To deliver high-performance, sustainable, and innovative piping
+            solutions through advanced manufacturing, empowering industries and
+            communities with durable infrastructure built for the future.
+          </p>
+        </div>
+      </div>
+    );
+  };
   return (
     <CommonUi id="about-us">
       <div
@@ -65,10 +90,16 @@ const AboutUs = () => {
             <DesText text="Manufacturong Experience" />
           </div>
         </div>
-        <div className="flex flex-row flex-nowrap overflow-x-auto space-x-4 scrollbar-hide justify-between">
+        <div className="flex flex-row flex-nowrap overflow-x-auto space-x-4 scrollbar-hide justify-between mb-10">
           <ImageCard />
           <ImageCard />
           <ImageCard />
+        </div>
+
+        {/* Cards design */}
+        <div className="mt-10 pt-10 flex flex-wrap gap-10 flex-col md:flex-row">
+          <SimpleCard />
+          <SimpleCard />
         </div>
       </div>
     </CommonUi>
